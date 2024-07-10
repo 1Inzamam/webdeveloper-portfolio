@@ -1,0 +1,35 @@
+body {
+  /* // <uniquifier>: Use a unique and descriptive class name */
+  /* // <weight>: Use a value from 300 to 800 */
+
+  font-family: "Open Sans", sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+.nav_title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+.text_primary {
+  color: orange;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+.button_primary {
+  border: 0px;
+  background-color: orange;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 15px 35px;
+}
