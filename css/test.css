@@ -1,0 +1,22 @@
+/* ul li{
+    display: flex;
+    position: ;
+    align-items: center;
+    justify-content: center;
+}
+.fl{
+    position: absolute;
+} */
+div{
+    margin: 100px;
+    display: flex;
+    align-items: center;
+
+}
+.hardy{
+position: absolute;
+}
+
+.hardybg{
+position:;
+}
