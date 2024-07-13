@@ -143,31 +143,74 @@ main {
 /* about me ending */
 
 /* what i do */
-#what-i-do-dec{
+#what-i-do-dec {
   padding: 30px 150px;
 }
-.skills-container{
+.skills-container {
   display: flex;
   gap: 50px;
 }
-.skill{
-padding: 30px;
-box-shadow: 0px 0px 50px 10px rgb(238, 237, 237);
+.skill {
+  padding: 30px;
+  box-shadow: 0px 0px 50px 10px rgb(238, 237, 237);
 }
-.skill-title{
+.skill-title {
   padding: 10px 0px 5px 0px;
 }
-.skill-dec{
+.skill-dec {
   font-weight: 400;
-font-size: 16px;
-color: #757575;
+  font-size: 16px;
+  color: #757575;
 }
 /* what i do ending */
 
 /* summary section */
-#summary-title{
+#summary-title {
   padding: 130px 0px 50px 0px;
 }
-.summary{
+.summary {
   display: flex;
+  gap: 20px;
 }
+.course {
+  padding: 30px 50px 30px 0px;
+  /* border-bottom: 1px solid #d1d1d1; */
+}
+.summary-field-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #474747;
+  margin: 0px;
+}
+.course-title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+.place-date {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin: 0px;
+}
+.course-dec {
+  padding-top: 0px;
+  /* padding-bottom: 30px; */
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  margin: 0px;
+}
+.underline {
+  border-bottom: 1px solid #d1d1d1;
+}
+.button_center {
+  display:flex;
+  justify-content: center;
+  padding: 20px 0px 100px 0px;
+}
+/* ending summary */
