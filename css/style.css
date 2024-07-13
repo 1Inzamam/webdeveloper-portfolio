@@ -209,8 +209,58 @@ main {
   border-bottom: 1px solid #d1d1d1;
 }
 .button_center {
-  display:flex;
+  display: flex;
   justify-content: center;
   padding: 20px 0px 100px 0px;
 }
+.last-button-size {
+  width: 200px;
+  height: 64px;
+}
 /* ending summary */
+
+.footer {
+  background-color: #fff8f3;
+}
+.footer-section {
+  margin: 0px auto;
+  width: 1140px;
+}
+.contact {
+  padding: 130px 0px;
+  /* padding: 130px 230px; */
+  /* align-items: center; */
+  display: flex;
+  gap: 120px;
+  /* justify-content: space-evenly; */
+}
+.contact-items {
+  /* padding: 0px 40px 0px 0px; */
+}
+.contact-icons {
+  display: flex;
+}
+.footer-dec {
+  width: 562px;
+  height: 56px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contact-title {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+}
+.contact-dec {
+  font-weight: 400;
+  font-size: 16px;
+  color: #474747;
+}
+.footer-icons {
+  padding: 0px 25px 0px 0px;
+}
+#input-text {
+  width: 461px;
+  height: 64px;
+}
