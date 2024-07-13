@@ -162,3 +162,12 @@ box-shadow: 0px 0px 50px 10px rgb(238, 237, 237);
 font-size: 16px;
 color: #757575;
 }
+/* what i do ending */
+
+/* summary section */
+#summary-title{
+  padding: 130px 0px 50px 0px;
+}
+.summary{
+  display: flex;
+}
